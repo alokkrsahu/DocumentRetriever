@@ -1,0 +1,91 @@
+
+> svelte-app@1.0.0 dev:custom
+> rollup -c -w & sirv public --dev --single --port 8080 --host
+
+[H[2J
+  Your application is ready~! 🚀
+
+  - Local:      http://0.0.0.0:8080
+  - Network:    http://192.168.2.38:8080
+
+ LOGS 
+
+[4mrollup v3.29.4[24m
+[36mbundles [1msrc/main.js[22m → [1mpublic/build/bundle.js[22m...[39m
+[1m[32mLiveReload enabled on port 35730[39m[22m
+[1m[33m(!) Plugin svelte: Unused CSS selector "h6"[39m[22m
+[1msrc/CallOffDiscussion.svelte[22m
+[90m248:     }
+249: 
+250:     h2, h3, h4, h5, h6 {
+                         ^
+251:         color: #222222;
+252:     }[39m
+[1m[33m(!) Plugin svelte: Unused CSS selector ".clause h6"[39m[22m
+[1msrc/CallOffDiscussion.svelte[22m
+[90m409:     }
+410: 
+411:     .clause h6 {
+         ^
+412:         margin-top: 0;
+413:         color: #d32f2f;[39m
+[1m[33m(!) Plugin svelte: Unused CSS selector "table"[39m[22m
+[1msrc/CallOffDiscussion.svelte[22m
+[90m420:     }
+421: 
+422:     table {
+         ^
+423:         width: 100%;
+424:         border-collapse: collapse;[39m
+[1m[33m(!) Plugin svelte: Unused CSS selector "th"[39m[22m
+[1msrc/CallOffDiscussion.svelte[22m
+[90m426:     }
+427: 
+428:     th, td {
+         ^
+429:         text-align: left;
+430:         padding: 0.75em;[39m
+[1msrc/CallOffDiscussion.svelte[22m
+[90m432:     }
+433: 
+434:     th {
+         ^
+435:         background-color: #f6f6f6;
+436:         font-weight: bold;[39m
+[1m[33m(!) Plugin svelte: Unused CSS selector "td"[39m[22m
+[1msrc/CallOffDiscussion.svelte[22m
+[90m426:     }
+427: 
+428:     th, td {
+             ^
+429:         text-align: left;
+430:         padding: 0.75em;[39m
+[1m[33m(!) Plugin svelte: Unused CSS selector "tr:last-child td"[39m[22m
+[1msrc/CallOffDiscussion.svelte[22m
+[90m438:     }
+439: 
+440:     tr:last-child td {
+         ^
+441:         border-bottom: none;
+442:     }[39m
+[32mcreated [1mpublic/build/bundle.js[22m in [1m1.5s[22m[39m
+
+> svelte-app@1.0.0 start
+> sirv public --single --port 8080 --dev --port 5000
+
+[H[2J
+  Your application is ready~! 🚀
+
+  ➡ Port 8080,5000 is taken; using 34919 instead
+
+  - Local:      http://localhost:34919
+  - Network:    Add `--host` to expose
+
+ LOGS 
+
+  [15:42:08] 200 ─ 3.73ms ─ /
+  [15:42:08] 200 ─ 1.24ms ─ /global.css
+  [15:42:08] 200 ─ 0.99ms ─ /build/bundle.css
+  [15:42:08] 200 ─ 5.01ms ─ /build/bundle.js
+  [15:42:09] 200 ─ 0.41ms ─ /favicon.png
+Killed

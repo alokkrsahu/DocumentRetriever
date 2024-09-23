@@ -1,0 +1,2 @@
+tender specification and payment details
+find all payment related details and providers obligations

@@ -1,0 +1,55 @@
+Watching for file changes with StatReloader
+[20/Sep/2024 14:42:08] "GET /api/projects/ HTTP/1.1" 200 407
+[20/Sep/2024 14:42:08] "GET /api/users/ HTTP/1.1" 200 69
+[20/Sep/2024 14:42:08] "GET /api/projects/ HTTP/1.1" 200 407
+[20/Sep/2024 14:42:09] "GET /api/users/ HTTP/1.1" 200 69
+[20/Sep/2024 14:42:13] "OPTIONS /api/projects/ HTTP/1.1" 200 0
+[20/Sep/2024 14:42:13] "POST /api/projects/ HTTP/1.1" 200 97
+[20/Sep/2024 14:42:14] "OPTIONS /api/create-project-json/ HTTP/1.1" 200 0
+[20/Sep/2024 14:42:14] "POST /api/create-project-json/ HTTP/1.1" 200 48
+[20/Sep/2024 14:42:14] "GET /api/project-files/?project_id=12 HTTP/1.1" 200 13
+[20/Sep/2024 14:42:30] "OPTIONS /api/upload/ HTTP/1.1" 200 0
+[20/Sep/2024 14:42:30] "POST /api/upload/ HTTP/1.1" 200 3877
+[20/Sep/2024 14:42:30] "GET /api/project-files/?project_id=12 HTTP/1.1" 200 2469
+[20/Sep/2024 14:42:43] "OPTIONS /api/delete-file/?file_id=93 HTTP/1.1" 200 0
+[20/Sep/2024 14:42:43] "DELETE /api/delete-file/?file_id=93 HTTP/1.1" 200 40
+[20/Sep/2024 14:42:43] "GET /api/project-files/?project_id=12 HTTP/1.1" 200 2303
+[20/Sep/2024 14:42:44] "OPTIONS /api/delete-file/?file_id=91 HTTP/1.1" 200 0
+[20/Sep/2024 14:42:44] "DELETE /api/delete-file/?file_id=91 HTTP/1.1" 200 40
+[20/Sep/2024 14:42:44] "GET /api/project-files/?project_id=12 HTTP/1.1" 200 2156
+[20/Sep/2024 14:42:45] "OPTIONS /api/delete-file/?file_id=89 HTTP/1.1" 200 0
+[20/Sep/2024 14:42:45] "DELETE /api/delete-file/?file_id=89 HTTP/1.1" 200 40
+[20/Sep/2024 14:42:45] "GET /api/project-files/?project_id=12 HTTP/1.1" 200 1998
+[20/Sep/2024 14:42:49] "OPTIONS /api/call-off-discussion/ HTTP/1.1" 200 0
+[20/Sep/2024 14:42:49] "POST /api/call-off-discussion/ HTTP/1.1" 200 65
+[20/Sep/2024 14:42:49] "GET /api/check-processing-status/?project_name=test567 HTTP/1.1" 200 52
+[20/Sep/2024 14:42:50] "POST /api/call-off-discussion/ HTTP/1.1" 200 66
+2024-09-20 14:42:50,275 - INFO - Loading faiss with AVX2 support.
+2024-09-20 14:42:50,284 - INFO - Successfully loaded faiss with AVX2 support.
+2024-09-20 14:42:51,684 - INFO - Total documents loaded: 0
+2024-09-20 14:42:51,684 - WARNING - Index not found at /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/unified_index.faiss. Creating new index.
+2024-09-20 14:42:51,684 - INFO - Initializing UnifiedRetriever with 0 documents
+2024-09-20 14:42:51,684 - INFO - Using device: cpu
+2024-09-20 14:42:51,684 - INFO - Load pretrained SentenceTransformer: facebook-dpr-ctx_encoder-single-nq-base
+/home/alok/anaconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+2024-09-20 14:42:52,940 - INFO - Load pretrained SentenceTransformer: facebook-dpr-question_encoder-single-nq-base
+2024-09-20 14:42:54,117 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-09-20 14:42:55,024 - INFO - Creating unified index
+Batches: 0it [00:00, ?it/s]Batches: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/runner.py", line 110, in <module>
+    main(args.processed_docs, args.method, args.k, args.query_file, args.output_dir)
+  File "/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/runner.py", line 67, in main
+    retriever = UnifiedRetriever(documents, key="id", on=["text"])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/documentretriever/unified_retriever.py", line 37, in __init__
+    self.create_unified_index()
+  File "/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/documentretriever/unified_retriever.py", line 52, in create_unified_index
+    dpr_embeddings = self.encode_batch(texts, self.dpr_encoder)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/documentretriever/unified_retriever.py", line 107, in encode_batch
+    return torch.cat(embeddings)
+           ^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: torch.cat(): expected a non-empty list of Tensors
+Error processing documents for project 12: None

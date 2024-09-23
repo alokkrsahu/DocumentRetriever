@@ -1,0 +1,497 @@
+Watching for file changes with StatReloader
+/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/fileupload/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/fileupload/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/fileupload/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/fileupload/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/fileupload/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Checking media directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media
+Found project folders: ['gegeg', 'test567', 'uploads', 'fgdgf', 'asdfasasf', 'test34', 'gega', 'hello123', 'test867', 'test2', 'asdfaffassaf', 'tenders', 'contract']
+Returning projects: [{'id': 4, 'name': 'gegeg'}, {'id': 12, 'name': 'test567'}, {'id': 2, 'name': 'uploads'}, {'id': 5, 'name': 'fgdgf'}, {'id': 6, 'name': 'asdfasasf'}, {'id': 11, 'name': 'test34'}, {'id': 7, 'name': 'gega'}, {'id': 3, 'name': 'hello123'}, {'id': 13, 'name': 'test867'}, {'id': 10, 'name': 'test2'}, {'id': 8, 'name': 'asdfaffassaf'}, {'id': 9, 'name': 'tenders'}, {'id': 1, 'name': 'contract'}]
+Checking media directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media
+Found project folders: ['gegeg', 'test567', 'uploads', 'fgdgf', 'asdfasasf', 'test34', 'gega', 'hello123', 'test867', 'test2', 'asdfaffassaf', 'tenders', 'contract']
+Returning projects: [{'id': 4, 'name': 'gegeg'}, {'id': 12, 'name': 'test567'}, {'id': 2, 'name': 'uploads'}, {'id': 5, 'name': 'fgdgf'}, {'id': 6, 'name': 'asdfasasf'}, {'id': 11, 'name': 'test34'}, {'id': 7, 'name': 'gega'}, {'id': 3, 'name': 'hello123'}, {'id': 13, 'name': 'test867'}, {'id': 10, 'name': 'test2'}, {'id': 8, 'name': 'asdfaffassaf'}, {'id': 9, 'name': 'tenders'}, {'id': 1, 'name': 'contract'}]
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok'}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'process_docs', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 10, 'top_n_docs': 5}
+Project: test567, User: alok, Action: process_docs
+Found project: test567
+Starting document processing
+process_project_documents called with project_id: 12
+Processing project: test567, Path: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+Files in project path: ['test567.json', 'sys']
+Running command: python3 /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/documentretriever/process.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567 --min-chars 100 --min-words 30 --output-dir /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+Process output: Files have been saved to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+Total paragraphs extracted and merged: 0
+Paragraphs after filtering (min 100 chars): 0
+Warning: Some files were skipped due to unsupported format. Check the log for details.
+
+Process error: 2024-09-20 15:24:11,596 - INFO - Created output directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+2024-09-20 15:24:11,597 - INFO - Extracting text from folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+2024-09-20 15:24:11,597 - INFO - Files in folder: ['test567.json', 'sys']
+2024-09-20 15:24:11,597 - INFO - Processing folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+2024-09-20 15:24:11,597 - INFO - Processing 1 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+2024-09-20 15:24:11,597 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/test567.json
+2024-09-20 15:24:11,597 - WARNING - Skipping unsupported file format: test567.json
+2024-09-20 15:24:11,597 - INFO - Processing 0 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys
+2024-09-20 15:24:11,597 - INFO - Processing 1 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+2024-09-20 15:24:11,597 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+2024-09-20 15:24:11,597 - WARNING - Skipping unsupported file format: extracted_data.json
+2024-09-20 15:24:11,597 - INFO - Processing 0 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data
+2024-09-20 15:24:11,597 - INFO - Extracted and merged a total of 0 paragraphs from all documents
+2024-09-20 15:24:11,597 - INFO - Total paragraphs extracted: 0
+2024-09-20 15:24:11,597 - INFO - Wrote 0 paragraphs to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+2024-09-20 15:24:11,597 - WARNING - The following files were skipped due to unsupported format:
+2024-09-20 15:24:11,597 - WARNING -   - test567.json
+2024-09-20 15:24:11,597 - WARNING -   - extracted_data.json
+
+Process output: Files have been saved to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+Total paragraphs extracted and merged: 0
+Paragraphs after filtering (min 100 chars): 0
+Warning: Some files were skipped due to unsupported format. Check the log for details.
+
+Process error: 2024-09-20 15:24:11,596 - INFO - Created output directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+2024-09-20 15:24:11,597 - INFO - Extracting text from folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+2024-09-20 15:24:11,597 - INFO - Files in folder: ['test567.json', 'sys']
+2024-09-20 15:24:11,597 - INFO - Processing folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+2024-09-20 15:24:11,597 - INFO - Processing 1 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+2024-09-20 15:24:11,597 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/test567.json
+2024-09-20 15:24:11,597 - WARNING - Skipping unsupported file format: test567.json
+2024-09-20 15:24:11,597 - INFO - Processing 0 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys
+2024-09-20 15:24:11,597 - INFO - Processing 1 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+2024-09-20 15:24:11,597 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+2024-09-20 15:24:11,597 - WARNING - Skipping unsupported file format: extracted_data.json
+2024-09-20 15:24:11,597 - INFO - Processing 0 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data
+2024-09-20 15:24:11,597 - INFO - Extracted and merged a total of 0 paragraphs from all documents
+2024-09-20 15:24:11,597 - INFO - Total paragraphs extracted: 0
+2024-09-20 15:24:11,597 - INFO - Wrote 0 paragraphs to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+2024-09-20 15:24:11,597 - WARNING - The following files were skipped due to unsupported format:
+2024-09-20 15:24:11,597 - WARNING -   - test567.json
+2024-09-20 15:24:11,597 - WARNING -   - extracted_data.json
+
+Output file path: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+extracted_data.json size: 2 bytes
+First 100 characters of extracted_data.json: []
+Running runner command: python3 /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/runner.py --processed_docs /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json --method bm25 tfidf flash lunr fuzz embedding encoder dpr --k 5 --output_dir /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data
+Project test567 documents processed. Location: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+Watching for file changes with StatReloader
+Checking media directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media
+Found project folders: ['gegeg', 'test567', 'uploads', 'fgdgf', 'asdfasasf', 'test34', 'gega', 'hello123', 'test867', 'test2', 'asdfaffassaf', 'tenders', 'contract']
+Returning projects: [{'id': 4, 'name': 'gegeg'}, {'id': 12, 'name': 'test567'}, {'id': 2, 'name': 'uploads'}, {'id': 5, 'name': 'fgdgf'}, {'id': 6, 'name': 'asdfasasf'}, {'id': 11, 'name': 'test34'}, {'id': 7, 'name': 'gega'}, {'id': 3, 'name': 'hello123'}, {'id': 13, 'name': 'test867'}, {'id': 10, 'name': 'test2'}, {'id': 8, 'name': 'asdfaffassaf'}, {'id': 9, 'name': 'tenders'}, {'id': 1, 'name': 'contract'}]
+Checking media directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media
+Found project folders: ['gegeg', 'test567', 'uploads', 'fgdgf', 'asdfasasf', 'test34', 'gega', 'hello123', 'test867', 'test2', 'asdfaffassaf', 'tenders', 'contract']
+Returning projects: [{'id': 4, 'name': 'gegeg'}, {'id': 12, 'name': 'test567'}, {'id': 2, 'name': 'uploads'}, {'id': 5, 'name': 'fgdgf'}, {'id': 6, 'name': 'asdfasasf'}, {'id': 11, 'name': 'test34'}, {'id': 7, 'name': 'gega'}, {'id': 3, 'name': 'hello123'}, {'id': 13, 'name': 'test867'}, {'id': 10, 'name': 'test2'}, {'id': 8, 'name': 'asdfaffassaf'}, {'id': 9, 'name': 'tenders'}, {'id': 1, 'name': 'contract'}]
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok'}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'process_docs', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 10, 'top_n_docs': 5}
+Project: test567, User: alok, Action: process_docs
+Found project: test567
+Starting document processing
+process_project_documents called with project_id: 12
+Processing project: test567, Path: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+Files in project path: ['test567.json', 'sys']
+Running command: python3 /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/documentretriever/process.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567 --min-chars 100 --min-words 30 --output-dir /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+Process output: Files have been saved to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+Total paragraphs extracted and merged: 0
+Paragraphs after filtering (min 100 chars): 0
+Warning: Some files were skipped due to unsupported format. Check the log for details.
+
+Process error: 2024-09-20 15:24:44,902 - INFO - Created output directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+2024-09-20 15:24:44,902 - INFO - Extracting text from folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+2024-09-20 15:24:44,902 - INFO - Files in folder: ['test567.json', 'sys']
+2024-09-20 15:24:44,902 - INFO - Processing folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+2024-09-20 15:24:44,902 - INFO - Processing 1 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+2024-09-20 15:24:44,902 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/test567.json
+2024-09-20 15:24:44,902 - WARNING - Skipping unsupported file format: test567.json
+2024-09-20 15:24:44,902 - INFO - Processing 0 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys
+2024-09-20 15:24:44,902 - INFO - Processing 1 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+2024-09-20 15:24:44,902 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+2024-09-20 15:24:44,902 - WARNING - Skipping unsupported file format: extracted_data.json
+2024-09-20 15:24:44,902 - INFO - Processing 0 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data
+2024-09-20 15:24:44,902 - INFO - Extracted and merged a total of 0 paragraphs from all documents
+2024-09-20 15:24:44,902 - INFO - Total paragraphs extracted: 0
+2024-09-20 15:24:44,902 - INFO - Wrote 0 paragraphs to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+2024-09-20 15:24:44,902 - WARNING - The following files were skipped due to unsupported format:
+2024-09-20 15:24:44,902 - WARNING -   - test567.json
+2024-09-20 15:24:44,902 - WARNING -   - extracted_data.json
+
+Process output: Files have been saved to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+Total paragraphs extracted and merged: 0
+Paragraphs after filtering (min 100 chars): 0
+Warning: Some files were skipped due to unsupported format. Check the log for details.
+
+Process error: 2024-09-20 15:24:44,902 - INFO - Created output directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+2024-09-20 15:24:44,902 - INFO - Extracting text from folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+2024-09-20 15:24:44,902 - INFO - Files in folder: ['test567.json', 'sys']
+2024-09-20 15:24:44,902 - INFO - Processing folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+2024-09-20 15:24:44,902 - INFO - Processing 1 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+2024-09-20 15:24:44,902 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/test567.json
+2024-09-20 15:24:44,902 - WARNING - Skipping unsupported file format: test567.json
+2024-09-20 15:24:44,902 - INFO - Processing 0 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys
+2024-09-20 15:24:44,902 - INFO - Processing 1 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+2024-09-20 15:24:44,902 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+2024-09-20 15:24:44,902 - WARNING - Skipping unsupported file format: extracted_data.json
+2024-09-20 15:24:44,902 - INFO - Processing 0 files in folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data
+2024-09-20 15:24:44,902 - INFO - Extracted and merged a total of 0 paragraphs from all documents
+2024-09-20 15:24:44,902 - INFO - Total paragraphs extracted: 0
+2024-09-20 15:24:44,902 - INFO - Wrote 0 paragraphs to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+2024-09-20 15:24:44,902 - WARNING - The following files were skipped due to unsupported format:
+2024-09-20 15:24:44,902 - WARNING -   - test567.json
+2024-09-20 15:24:44,902 - WARNING -   - extracted_data.json
+
+Output file path: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+extracted_data.json size: 2 bytes
+First 100 characters of extracted_data.json: []
+Running runner command: python3 /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/runner.py --processed_docs /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json --method bm25 tfidf flash lunr fuzz embedding encoder dpr --k 5 --output_dir /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data
+Project test567 documents processed. Location: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/fileupload/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/fileupload/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/fileupload_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/fileupload_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/fileupload/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/fileupload_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/fileupload/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Checking media directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media
+Found project folders: ['gegeg', 'test567', 'uploads', 'fgdgf', 'asdfasasf', 'test34', 'gega', 'hello123', 'test867', 'test2', 'asdfaffassaf', 'tenders', 'contract']
+Returning projects: [{'id': 4, 'name': 'gegeg'}, {'id': 12, 'name': 'test567'}, {'id': 2, 'name': 'uploads'}, {'id': 5, 'name': 'fgdgf'}, {'id': 6, 'name': 'asdfasasf'}, {'id': 11, 'name': 'test34'}, {'id': 7, 'name': 'gega'}, {'id': 3, 'name': 'hello123'}, {'id': 13, 'name': 'test867'}, {'id': 10, 'name': 'test2'}, {'id': 8, 'name': 'asdfaffassaf'}, {'id': 9, 'name': 'tenders'}, {'id': 1, 'name': 'contract'}]
+Checking media directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media
+Found project folders: ['gegeg', 'test567', 'uploads', 'fgdgf', 'asdfasasf', 'test34', 'gega', 'hello123', 'test867', 'test2', 'asdfaffassaf', 'tenders', 'contract']
+Returning projects: [{'id': 4, 'name': 'gegeg'}, {'id': 12, 'name': 'test567'}, {'id': 2, 'name': 'uploads'}, {'id': 5, 'name': 'fgdgf'}, {'id': 6, 'name': 'asdfasasf'}, {'id': 11, 'name': 'test34'}, {'id': 7, 'name': 'gega'}, {'id': 3, 'name': 'hello123'}, {'id': 13, 'name': 'test867'}, {'id': 10, 'name': 'test2'}, {'id': 8, 'name': 'asdfaffassaf'}, {'id': 9, 'name': 'tenders'}, {'id': 1, 'name': 'contract'}]
+Checking media directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media
+Found project folders: ['gegeg', 'test567', 'uploads', 'fgdgf', 'asdfasasf', 'test34', 'gega', 'hello123', 'test867', 'test2', 'asdfaffassaf', 'tenders', 'contract']
+Returning projects: [{'id': 4, 'name': 'gegeg'}, {'id': 12, 'name': 'test567'}, {'id': 2, 'name': 'uploads'}, {'id': 5, 'name': 'fgdgf'}, {'id': 6, 'name': 'asdfasasf'}, {'id': 11, 'name': 'test34'}, {'id': 7, 'name': 'gega'}, {'id': 3, 'name': 'hello123'}, {'id': 13, 'name': 'test867'}, {'id': 10, 'name': 'test2'}, {'id': 8, 'name': 'asdfaffassaf'}, {'id': 9, 'name': 'tenders'}, {'id': 1, 'name': 'contract'}]
+Checking media directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media
+Found project folders: ['gegeg', 'test567', 'uploads', 'fgdgf', 'asdfasasf', 'test34', 'gega', 'hello123', 'test867', 'test2', 'asdfaffassaf', 'tenders', 'contract']
+Returning projects: [{'id': 4, 'name': 'gegeg'}, {'id': 12, 'name': 'test567'}, {'id': 2, 'name': 'uploads'}, {'id': 5, 'name': 'fgdgf'}, {'id': 6, 'name': 'asdfasasf'}, {'id': 11, 'name': 'test34'}, {'id': 7, 'name': 'gega'}, {'id': 3, 'name': 'hello123'}, {'id': 13, 'name': 'test867'}, {'id': 10, 'name': 'test2'}, {'id': 8, 'name': 'asdfaffassaf'}, {'id': 9, 'name': 'tenders'}, {'id': 1, 'name': 'contract'}]
+Checking media directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media
+Found project folders: ['gegeg', 'test567', 'uploads', 'fgdgf', 'asdfasasf', 'test34', 'gega', 'hello123', 'test867', 'test2', 'asdfaffassaf', 'tenders', 'contract']
+Returning projects: [{'id': 4, 'name': 'gegeg'}, {'id': 12, 'name': 'test567'}, {'id': 2, 'name': 'uploads'}, {'id': 5, 'name': 'fgdgf'}, {'id': 6, 'name': 'asdfasasf'}, {'id': 11, 'name': 'test34'}, {'id': 7, 'name': 'gega'}, {'id': 3, 'name': 'hello123'}, {'id': 13, 'name': 'test867'}, {'id': 10, 'name': 'test2'}, {'id': 8, 'name': 'asdfaffassaf'}, {'id': 9, 'name': 'tenders'}, {'id': 1, 'name': 'contract'}]
+Checking media directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media
+Found project folders: ['gegeg', 'test567', 'uploads', 'fgdgf', 'asdfasasf', 'test34', 'gega', 'hello123', 'test867', 'test2', 'asdfaffassaf', 'tenders', 'contract']
+Returning projects: [{'id': 4, 'name': 'gegeg'}, {'id': 12, 'name': 'test567'}, {'id': 2, 'name': 'uploads'}, {'id': 5, 'name': 'fgdgf'}, {'id': 6, 'name': 'asdfasasf'}, {'id': 11, 'name': 'test34'}, {'id': 7, 'name': 'gega'}, {'id': 3, 'name': 'hello123'}, {'id': 13, 'name': 'test867'}, {'id': 10, 'name': 'test2'}, {'id': 8, 'name': 'asdfaffassaf'}, {'id': 9, 'name': 'tenders'}, {'id': 1, 'name': 'contract'}]
+Files uploaded to: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents
+Uploaded files: ['/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.pdf']
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok'}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'process_docs', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 10, 'top_n_docs': 5}
+Project: test567, User: alok, Action: process_docs
+Found project: test567
+Starting document processing
+process_project_documents called with project_id: 12
+Processing project: test567, Documents Path: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents
+Files in documents path: ['ITT316 OH Tender - Sept 24.pdf']
+Running command: python3 /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/documentretriever/process.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents --min-chars 100 --min-words 30 --output-dir /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+Process output: Files have been saved to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+Total paragraphs extracted and merged: 11
+Paragraphs after filtering (min 100 chars): 11
+
+Process error: 2024-09-20 15:35:23,155 - INFO - Created output directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+2024-09-20 15:35:23,155 - INFO - Extracting text from folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents
+2024-09-20 15:35:23,155 - INFO - Files in folder: ['ITT316 OH Tender - Sept 24.pdf']
+2024-09-20 15:35:23,155 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.pdf
+2024-09-20 15:35:23,155 - INFO - File size: 180885 bytes
+2024-09-20 15:35:23,529 - INFO - Successfully extracted 11 paragraphs from PDF: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.pdf
+2024-09-20 15:35:23,529 - INFO - Extracted and merged a total of 11 paragraphs from all documents
+2024-09-20 15:35:23,529 - INFO - Total paragraphs extracted: 11
+2024-09-20 15:35:23,529 - INFO - Wrote 11 paragraphs to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+
+Process output: Files have been saved to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+Total paragraphs extracted and merged: 11
+Paragraphs after filtering (min 100 chars): 11
+
+Process error: 2024-09-20 15:35:23,155 - INFO - Created output directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+2024-09-20 15:35:23,155 - INFO - Extracting text from folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents
+2024-09-20 15:35:23,155 - INFO - Files in folder: ['ITT316 OH Tender - Sept 24.pdf']
+2024-09-20 15:35:23,155 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.pdf
+2024-09-20 15:35:23,155 - INFO - File size: 180885 bytes
+2024-09-20 15:35:23,529 - INFO - Successfully extracted 11 paragraphs from PDF: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.pdf
+2024-09-20 15:35:23,529 - INFO - Extracted and merged a total of 11 paragraphs from all documents
+2024-09-20 15:35:23,529 - INFO - Total paragraphs extracted: 11
+2024-09-20 15:35:23,529 - INFO - Wrote 11 paragraphs to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+
+Output file path: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+extracted_data.json size: 21197 bytes
+First 100 characters of extracted_data.json: [
+  {
+    "id": 1,
+    "text": "University of Northampton\nTender Title: Appointment of an Occupatio
+Running runner command: python3 /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/runner.py --processed_docs /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json --method bm25 tfidf flash lunr fuzz embedding encoder dpr --k 5 --output_dir /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 10, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok'}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 10, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 10, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 10, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 10, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Project test567 documents processed. Location: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 10, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 49, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 49, 'top_n_docs': 4}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1079, 'top_m_clauses': 353, 'min_threshold': 49, 'top_n_docs': 4}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1079, 'top_m_clauses': 353, 'min_threshold': 66, 'top_n_docs': 4}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1079, 'top_m_clauses': 353, 'min_threshold': 58, 'top_n_docs': 4}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+File with id 109 not found in database
+Not Found: /api/delete-file/
+File with id 103 not found in database
+Not Found: /api/delete-file/
+File with id 95 not found in database
+Not Found: /api/delete-file/
+File with id 92 not found in database
+Not Found: /api/delete-file/
+Files uploaded to: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents
+Uploaded files: ['/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/~$T316 OH Tender - Appendix 3 SQ 2024.docx', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.pdf', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/~$T316 OH Tender - Sept 24.docx', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Appendix 3 SQ 2024.docx', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/.~lock.ITT316 OH Tender - Appendix 3 SQ 2024.docx#', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.docx', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 UON Appointment Terms.docx', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender Appendices 4 to 9.docx', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Tender Notice.pdf', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Appendix 3 SQ 2024.pdf', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 8a - ITT316 Pricing Schedule.xlsx', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 2 Social Impact.docx', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender Appendix 1 Information for Suppliers.docx', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 3a Annex D Exclusion Grounds.docx', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Clarification List_UONorth.ods', '/home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Clarification 1.pdf']
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok'}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'process_docs', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 0, 'top_n_docs': 5}
+Project: test567, User: alok, Action: process_docs
+Found project: test567
+Starting document processing
+process_project_documents called with project_id: 12
+Processing project: test567, Documents Path: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents
+Files in documents path: ['ITT316 UON Appointment Terms.docx', 'ITT316 Appendix 3a Annex D Exclusion Grounds.docx', 'Clarification 1.pdf', 'ITT316 OH Tender Appendices 4 to 9.docx', 'Clarification List_UONorth.ods', 'ITT316 OH Tender - Appendix 3 SQ 2024.docx', 'ITT316 Appendix 8a - ITT316 Pricing Schedule.xlsx', 'ITT316 OH Tender Appendix 1 Information for Suppliers.docx', 'ITT316 OH Tender - Appendix 3 SQ 2024.pdf', 'ITT316 OH Tender - Sept 24.docx', 'ITT316 OH Tender - Sept 24.pdf', 'Tender Notice.pdf', 'ITT316 Appendix 2 Social Impact.docx']
+Running command: python3 /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/documentretriever/process.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents --min-chars 100 --min-words 30 --output-dir /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+Process output: Files have been saved to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+Total paragraphs extracted and merged: 624
+Paragraphs after filtering (min 100 chars): 623
+Warning: Some files were skipped due to unsupported format. Check the log for details.
+
+Process error: 2024-09-20 15:50:23,294 - INFO - Created output directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+2024-09-20 15:50:23,294 - INFO - Extracting text from folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents
+2024-09-20 15:50:23,294 - INFO - Files in folder: ['ITT316 UON Appointment Terms.docx', 'ITT316 Appendix 3a Annex D Exclusion Grounds.docx', 'Clarification 1.pdf', 'ITT316 OH Tender Appendices 4 to 9.docx', 'Clarification List_UONorth.ods', 'ITT316 OH Tender - Appendix 3 SQ 2024.docx', 'ITT316 Appendix 8a - ITT316 Pricing Schedule.xlsx', 'ITT316 OH Tender Appendix 1 Information for Suppliers.docx', 'ITT316 OH Tender - Appendix 3 SQ 2024.pdf', 'ITT316 OH Tender - Sept 24.docx', 'ITT316 OH Tender - Sept 24.pdf', 'Tender Notice.pdf', 'ITT316 Appendix 2 Social Impact.docx']
+2024-09-20 15:50:23,295 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 UON Appointment Terms.docx
+2024-09-20 15:50:23,295 - INFO - File size: 148136 bytes
+2024-09-20 15:50:23,400 - INFO - Successfully extracted 847 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 UON Appointment Terms.docx
+2024-09-20 15:50:23,401 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 3a Annex D Exclusion Grounds.docx
+2024-09-20 15:50:23,401 - INFO - File size: 28356 bytes
+2024-09-20 15:50:23,412 - INFO - Successfully extracted 84 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 3a Annex D Exclusion Grounds.docx
+2024-09-20 15:50:23,412 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Clarification 1.pdf
+2024-09-20 15:50:23,412 - INFO - File size: 45343 bytes
+2024-09-20 15:50:23,467 - INFO - Successfully extracted 2 paragraphs from PDF: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Clarification 1.pdf
+2024-09-20 15:50:23,467 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender Appendices 4 to 9.docx
+2024-09-20 15:50:23,467 - INFO - File size: 43753 bytes
+2024-09-20 15:50:23,482 - INFO - Successfully extracted 131 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender Appendices 4 to 9.docx
+2024-09-20 15:50:23,483 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Clarification List_UONorth.ods
+2024-09-20 15:50:23,483 - INFO - File size: 4586 bytes
+2024-09-20 15:50:23,483 - WARNING - Skipping unsupported file format: Clarification List_UONorth.ods
+2024-09-20 15:50:23,483 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Appendix 3 SQ 2024.docx
+2024-09-20 15:50:23,483 - INFO - File size: 109015 bytes
+2024-09-20 15:50:23,508 - INFO - Successfully extracted 42 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Appendix 3 SQ 2024.docx
+2024-09-20 15:50:23,508 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 8a - ITT316 Pricing Schedule.xlsx
+2024-09-20 15:50:23,508 - INFO - File size: 33844 bytes
+2024-09-20 15:50:23,508 - WARNING - Skipping unsupported file format: ITT316 Appendix 8a - ITT316 Pricing Schedule.xlsx
+2024-09-20 15:50:23,508 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender Appendix 1 Information for Suppliers.docx
+2024-09-20 15:50:23,508 - INFO - File size: 37636 bytes
+2024-09-20 15:50:23,529 - INFO - Successfully extracted 102 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender Appendix 1 Information for Suppliers.docx
+2024-09-20 15:50:23,530 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Appendix 3 SQ 2024.pdf
+2024-09-20 15:50:23,530 - INFO - File size: 282086 bytes
+2024-09-20 15:50:24,405 - INFO - Successfully extracted 23 paragraphs from PDF: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Appendix 3 SQ 2024.pdf
+2024-09-20 15:50:24,406 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.docx
+2024-09-20 15:50:24,406 - INFO - File size: 67683 bytes
+2024-09-20 15:50:24,420 - INFO - Successfully extracted 91 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.docx
+2024-09-20 15:50:24,420 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.pdf
+2024-09-20 15:50:24,420 - INFO - File size: 180885 bytes
+2024-09-20 15:50:24,842 - INFO - Successfully extracted 11 paragraphs from PDF: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.pdf
+2024-09-20 15:50:24,842 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Tender Notice.pdf
+2024-09-20 15:50:24,842 - INFO - File size: 130834 bytes
+2024-09-20 15:50:25,001 - INFO - Successfully extracted 6 paragraphs from PDF: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Tender Notice.pdf
+2024-09-20 15:50:25,002 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 2 Social Impact.docx
+2024-09-20 15:50:25,002 - INFO - File size: 26791 bytes
+2024-09-20 15:50:25,004 - INFO - Successfully extracted 6 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 2 Social Impact.docx
+2024-09-20 15:50:25,004 - INFO - Extracted and merged a total of 624 paragraphs from all documents
+2024-09-20 15:50:25,004 - INFO - Total paragraphs extracted: 624
+2024-09-20 15:50:25,007 - INFO - Wrote 623 paragraphs to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+2024-09-20 15:50:25,007 - WARNING - The following files were skipped due to unsupported format:
+2024-09-20 15:50:25,007 - WARNING -   - Clarification List_UONorth.ods
+2024-09-20 15:50:25,007 - WARNING -   - ITT316 Appendix 8a - ITT316 Pricing Schedule.xlsx
+
+Process output: Files have been saved to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+Total paragraphs extracted and merged: 624
+Paragraphs after filtering (min 100 chars): 623
+Warning: Some files were skipped due to unsupported format. Check the log for details.
+
+Process error: 2024-09-20 15:50:23,294 - INFO - Created output directory: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp
+2024-09-20 15:50:23,294 - INFO - Extracting text from folder: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents
+2024-09-20 15:50:23,294 - INFO - Files in folder: ['ITT316 UON Appointment Terms.docx', 'ITT316 Appendix 3a Annex D Exclusion Grounds.docx', 'Clarification 1.pdf', 'ITT316 OH Tender Appendices 4 to 9.docx', 'Clarification List_UONorth.ods', 'ITT316 OH Tender - Appendix 3 SQ 2024.docx', 'ITT316 Appendix 8a - ITT316 Pricing Schedule.xlsx', 'ITT316 OH Tender Appendix 1 Information for Suppliers.docx', 'ITT316 OH Tender - Appendix 3 SQ 2024.pdf', 'ITT316 OH Tender - Sept 24.docx', 'ITT316 OH Tender - Sept 24.pdf', 'Tender Notice.pdf', 'ITT316 Appendix 2 Social Impact.docx']
+2024-09-20 15:50:23,295 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 UON Appointment Terms.docx
+2024-09-20 15:50:23,295 - INFO - File size: 148136 bytes
+2024-09-20 15:50:23,400 - INFO - Successfully extracted 847 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 UON Appointment Terms.docx
+2024-09-20 15:50:23,401 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 3a Annex D Exclusion Grounds.docx
+2024-09-20 15:50:23,401 - INFO - File size: 28356 bytes
+2024-09-20 15:50:23,412 - INFO - Successfully extracted 84 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 3a Annex D Exclusion Grounds.docx
+2024-09-20 15:50:23,412 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Clarification 1.pdf
+2024-09-20 15:50:23,412 - INFO - File size: 45343 bytes
+2024-09-20 15:50:23,467 - INFO - Successfully extracted 2 paragraphs from PDF: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Clarification 1.pdf
+2024-09-20 15:50:23,467 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender Appendices 4 to 9.docx
+2024-09-20 15:50:23,467 - INFO - File size: 43753 bytes
+2024-09-20 15:50:23,482 - INFO - Successfully extracted 131 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender Appendices 4 to 9.docx
+2024-09-20 15:50:23,483 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Clarification List_UONorth.ods
+2024-09-20 15:50:23,483 - INFO - File size: 4586 bytes
+2024-09-20 15:50:23,483 - WARNING - Skipping unsupported file format: Clarification List_UONorth.ods
+2024-09-20 15:50:23,483 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Appendix 3 SQ 2024.docx
+2024-09-20 15:50:23,483 - INFO - File size: 109015 bytes
+2024-09-20 15:50:23,508 - INFO - Successfully extracted 42 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Appendix 3 SQ 2024.docx
+2024-09-20 15:50:23,508 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 8a - ITT316 Pricing Schedule.xlsx
+2024-09-20 15:50:23,508 - INFO - File size: 33844 bytes
+2024-09-20 15:50:23,508 - WARNING - Skipping unsupported file format: ITT316 Appendix 8a - ITT316 Pricing Schedule.xlsx
+2024-09-20 15:50:23,508 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender Appendix 1 Information for Suppliers.docx
+2024-09-20 15:50:23,508 - INFO - File size: 37636 bytes
+2024-09-20 15:50:23,529 - INFO - Successfully extracted 102 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender Appendix 1 Information for Suppliers.docx
+2024-09-20 15:50:23,530 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Appendix 3 SQ 2024.pdf
+2024-09-20 15:50:23,530 - INFO - File size: 282086 bytes
+2024-09-20 15:50:24,405 - INFO - Successfully extracted 23 paragraphs from PDF: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Appendix 3 SQ 2024.pdf
+2024-09-20 15:50:24,406 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.docx
+2024-09-20 15:50:24,406 - INFO - File size: 67683 bytes
+2024-09-20 15:50:24,420 - INFO - Successfully extracted 91 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.docx
+2024-09-20 15:50:24,420 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.pdf
+2024-09-20 15:50:24,420 - INFO - File size: 180885 bytes
+2024-09-20 15:50:24,842 - INFO - Successfully extracted 11 paragraphs from PDF: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 OH Tender - Sept 24.pdf
+2024-09-20 15:50:24,842 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Tender Notice.pdf
+2024-09-20 15:50:24,842 - INFO - File size: 130834 bytes
+2024-09-20 15:50:25,001 - INFO - Successfully extracted 6 paragraphs from PDF: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/Tender Notice.pdf
+2024-09-20 15:50:25,002 - INFO - Processing file: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 2 Social Impact.docx
+2024-09-20 15:50:25,002 - INFO - File size: 26791 bytes
+2024-09-20 15:50:25,004 - INFO - Successfully extracted 6 paragraphs from DOCX: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/documents/ITT316 Appendix 2 Social Impact.docx
+2024-09-20 15:50:25,004 - INFO - Extracted and merged a total of 624 paragraphs from all documents
+2024-09-20 15:50:25,004 - INFO - Total paragraphs extracted: 624
+2024-09-20 15:50:25,007 - INFO - Wrote 623 paragraphs to /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+2024-09-20 15:50:25,007 - WARNING - The following files were skipped due to unsupported format:
+2024-09-20 15:50:25,007 - WARNING -   - Clarification List_UONorth.ods
+2024-09-20 15:50:25,007 - WARNING -   - ITT316 Appendix 8a - ITT316 Pricing Schedule.xlsx
+
+Output file path: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+extracted_data.json size: 349577 bytes
+First 100 characters of extracted_data.json: [
+  {
+    "id": 1,
+    "text": "Contract Summary Sheet CONTENTS 1.\tinterpretation\t1 2.\tSUPPLY OF 
+Running runner command: python3 /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/retrievals/runner.py --processed_docs /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json --method bm25 tfidf flash lunr fuzz embedding encoder dpr --k 5 --output_dir /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data
+Watching for file changes with StatReloader
+Project test567 documents processed. Location: /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/extracted_data.json
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 0, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok'}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 10, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok'}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 10, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 46, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 64, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 64, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 69, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 69, 'top_n_docs': 3}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 69, 'top_n_docs': 3}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
+call_off_discussion function called
+Received data: {'project_name': 'test567', 'username': 'alok', 'action': 'call_off', 'min_frequency': 1, 'top_m_clauses': 3, 'min_threshold': 79, 'top_n_docs': 5}
+Project: test567, User: alok, Action: call_off
+Found project: test567
+Running analysis command: python retrievals/analyser.py /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/retrieval_results.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567/sys/temp/data/analysis_output.json /home/alok/Documents/svelte-django/svelte-django/backend/fileupload_project/media/test567
